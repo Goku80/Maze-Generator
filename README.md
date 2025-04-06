@@ -1,10 +1,20 @@
-# Maze-Generator
-Java-Anwendung, die ein Labyrinth generiert und grafisch darstellt.
-Das Projekt "Maze Generator" ist eine Java-Anwendung, die ein Labyrinth generiert und grafisch darstellt. 
-Es verwendet Swing-Komponenten, um ein Fenster mit einem JPanel zu erstellen,
-auf dem das generierte Labyrinth gezeichnet wird.
-Das Labyrinth wird durch Unterteilung von Kammern erzeugt, wobei vertikale und horizontale Linien als Wände dienen.
-Die Größe der Zellen im Labyrinth sowie die Größe des Fensters sind anpassbar. 
-Das generierte Labyrinth wird durch zufällige Auswahl von Lücken in den Wänden erstellt, wodurch ein einzigartiges Layout entsteht.
+# Maze Generator & Solver
 
-![maze](https://github.com/Goku80/Rekursive-Kreise-Visualisierung/assets/100942501/ad7a6e6c-42ce-4837-b0af-f765c1fd7b61)
+Dieses Projekt ist ein Java-basiertes Labyrinth-Generator- und Lösungsprogramm, das mithilfe von rekursivem Backtracking ein zufälliges Labyrinth erstellt und anschließend animiert löst.
+
+## Features
+
+- **Labyrinth-Generierung:** Erzeugt zufällige Labyrinthe mittels rekursivem Backtracking.
+- **Animierte Lösung:** Visualisiert den Lösungsweg schrittweise mit DFS (Depth-First Search) und Backtracking.
+- **Start- und Endpunkt:** Startpunkt (grün) und Ziel (rot) sind deutlich markiert.
+- **Modularer Aufbau:** Das Projekt ist in drei Dateien aufgeteilt:
+  - `MazeSolver.java` – Hauptklasse (JFrame) und Einstiegspunkt.
+  - `MazePanel.java` – Darstellung des Labyrinths, Labyrinth-Generierung und Lösungsalgorithmus.
+  - `MazeCell.java` – Repräsentation einer einzelnen Zelle im Labyrinth.
+  
+
+## Voraussetzungen
+
+- Java JDK 8 oder höher
+- Eine IDE (z. B. IntelliJ IDEA, Eclipse, Visual Studio Code) oder die Kommandozeile
+
