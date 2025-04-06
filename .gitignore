@@ -1,0 +1,53 @@
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs
+hs_err_pid*
+
+# VSCode settings
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+*.pydevproject
+.project
+.classpath
+.csettings
+.settings/
+bin/
+tmp/
+build/
+
+# MacOS
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Java-specific temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
